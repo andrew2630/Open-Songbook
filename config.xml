@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.andrzejpudzisz.songbook" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Śpiewnik Zborowy</name>
+    <description>
+    Śpiewnik
+  </description>
+    <author email="kontakt@andrzejpudzisz.com" href="https://andrzejpudzisz.com">
+    Andrzej Pudzisz
+  </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <access origin=".*" />
+    <access launch-external="yes" origin="geo:*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="http://kwch.wroclaw.pl/*" />
+    <preference name="orientation" value="portrait" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
+    <preference name="buildArchitecture" value="arm64" />
+    <preference name="android-minSdkVersion" value="22" />
+</widget>

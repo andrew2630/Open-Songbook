@@ -1,0 +1,29 @@
+.buttonPl {
+  grid-area: buttonPl;
+  background: url(../img/polish_flag.png) no-repeat center center;
+  border-radius: 10%;
+  border-style: hidden;
+}
+
+.buttonEng {
+  grid-area: buttonEng;
+  background: url(../img/british_flag.png) no-repeat center center;
+  border-radius: 10%;
+  border-style: hidden;
+}
+
+.container {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 25% 25% 25% 25%;
+  gap: 10% 10%;
+  grid-template-areas: 
+    ". . ."
+    ". buttonPl ."
+    ". buttonEng ."
+    ". . .";
+}

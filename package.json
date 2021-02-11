@@ -1,0 +1,37 @@
+{
+  "name": "com.andrzejpudzisz.open_songbook",
+  "displayName": "Open Songbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Andrzej Pudzisz",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.0.0",
+    "cordova-browser": "^6.0.0",
+    "cordova-ios": "^6.1.1",
+    "cordova-plugin-inappbrowser": "^3.0.0",
+    "cordova-plugin-screen-orientation": "^3.0.2",
+    "cordova-plugin-whitelist": "^1.3.4",
+    "es6-promise-plugin": "^4.2.2"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-inappbrowser": {}
+    },
+    "platforms": [
+      "browser",
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-plugin-build-architecture": "^1.0.6"
+  }
+}

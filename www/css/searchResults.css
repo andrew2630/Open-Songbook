@@ -1,0 +1,18 @@
+.content {
+  margin-top: 3.4rem;
+  padding: 5%;
+}
+
+.container {
+  align-content: center;
+  justify-items: center;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #000;
+}

@@ -1,0 +1,40 @@
+@media screen and (prefers-color-scheme: dark) {
+  loadingContainer {
+    background-image: linear-gradient(to bottom, #f1f1f1 20%, #c0c0c0 80%);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  background: url(../../img/loader.png) no-repeat center top;
+  height: 46px;
+  width: 46px;
+  grid-area: loader;
+  animation: spin 1.5s linear infinite, fade 3000ms infinite;
+}
+
+.loadingText {
+  grid-area: loadingText;
+}
+
+.loadingContainer {
+  height: 100%;
+  z-index: 999;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 55% 10% 20% 15%;
+  gap: 5% 5%;
+  grid-template-areas: ". . ." ". loader ." ". loadingText ." ". . .";
+}

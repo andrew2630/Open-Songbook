@@ -1,0 +1,141 @@
+#navBar {
+  position: fixed;
+  width: 100%;
+  height: 3.4rem;
+  top: 0;
+  z-index: 10;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  display: none; /* inline */
+  font-size: 1.1rem;
+  background: #555;
+  color: #eee;
+}
+
+#leftBox {
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+
+.leftLine {
+  width: 100%;
+  height: 50%;
+}
+
+#menu,
+#displaySwitch,
+#favourites,
+#showLanguageBtn,
+#input,
+#increaseFontBtn,
+#decreaseFontBtn,
+#addToFavouritesBtn {
+  float: left;
+  height: 100%;
+  border: none;
+  border: 1px solid #bbb;
+}
+
+#menu:focus,
+#displaySwitch:focus,
+#favourites:focus,
+#showLanguageBtn:focus,
+#input:focus,
+#increaseFontBtn:focus,
+#decreaseFontBtn:focus,
+#addToFavouritesBtn:focus {
+  outline: none;
+}
+
+#displaySwitch,
+#favourites,
+#showLanguageBtn,
+#addToFavouritesBtn {
+  width: 50%;
+}
+
+#menu {
+  width: 13%;
+  background: url(../../img/menu.png) no-repeat center top;
+  background-size: contain;
+  background-position: center;
+}
+
+#displaySwitch {
+  background: url(../../img/displaySwitch.png) no-repeat center top;
+  background-size: contain;
+  background-position: center;
+}
+
+#showLanguageBtn {
+  background: url(../../img/language.png) no-repeat center top;
+  background-size: contain;
+  background-position: center;
+}
+
+#favourites {
+  background: url(../../img/favouritesList.png) no-repeat center top;
+  background-size: contain;
+  background-position: center;
+}
+
+#input {
+  width: 43%;
+  text-align: center;
+  padding: 0 .1rem;
+  border: 0 none;
+  border-right: 1px solid #bbb;
+  background-color: #555;
+  color: #eee;
+}
+
+#addToFavouritesBtn {
+  background: url(../../img/heart.png) no-repeat center top;
+  background-size: contain;
+  background-position: center;
+}
+
+#increaseFontBtn {
+  width: 12%;
+  background: url(../../img/plus.png) no-repeat center top;
+  background-size: contain;
+  background-position: center;
+}
+
+#decreaseFontBtn {
+  width: 12%;
+  background: url(../../img/minus.png) no-repeat center top;
+  background-size: contain;
+  background-position: center;
+}
+
+.otherLanguage {
+  display: none;
+}
+
+.numericBlock {
+  display: none;
+}
+
+.numeric {
+  display: none;
+}
+
+.numericBlock {
+  display: none;
+}
+
+.inactive {
+  opacity: 20%;
+}
+
+.selected {
+  opacity: 100%;
+}
+
+.notSelected {
+  opacity: 50%;
+}
